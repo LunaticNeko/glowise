@@ -30,7 +30,7 @@ Issues
 ------
 
 * Please recommend me with changes in parameters of each ISE-3 ore's glow. My taste in color (and my monitor) is not very good, so I'm working with what I feel good enough. If possible, please use Github's issues features or send a pull request.
-* This mod is strategically named to exploit Starbound's reverse-alphabetic (or "descending", you terminology geeks) mod load ordering because the modinfo dependency system is not functioning properly. If Starbound changes the load ordering then this thing may break.
+* This mod is strategically named to exploit Starbound's reverse-alphabetic (or "descending", you terminology geeks) mod load ordering because the modinfo dependency system is not functioning properly. I have added an include clause to the modinfo file (Thanks Dr_Capsaicin on Reddit) and it should mitigate the problem, but if you encounter anything please tell me. If something goes wrong in this case, the game won't crash but the ore won't glow.
 
 Compatibility
 -------------
