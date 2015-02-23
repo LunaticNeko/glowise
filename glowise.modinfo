@@ -1,0 +1,10 @@
+{
+  "name" : "glowise",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : ["ISE-3"],
+  "modauthor" : "LunaticNeko",
+  "modversion" : "0",
+  "moddescription" : "ISE-3 with IlluminatedOres patch. Permission not given by any author.",
+  "modsupporturl" : ""
+}
