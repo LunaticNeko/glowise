@@ -3,8 +3,9 @@
   "version" : "Beta v. Upbeat Giraffe",
   "path" : ".",
   "dependencies" : ["ISE-3"],
+  "includes" : ["ISE-3"],
   "modauthor" : "LunaticNeko",
-  "modversion" : "0",
-  "moddescription" : "ISE-3 with IlluminatedOres patch. Permission not given by any author.",
+  "modversion" : "v0.1",
+  "moddescription" : "ISE-3 with ore illumination patch based on Illuminated Ores.",
   "modsupporturl" : ""
 }
