@@ -7,7 +7,7 @@ Introduction
 Starbound's [Industrialization 3: Starbound Edition (ISE-3)](http://community.playstarbound.com/index.php?resources/industrilization-3-starbound-edition-ise-3.2531/) mod by DraLUSAD _et al_ adds many functionalities into the game.
 With one of those things come new ore (Tin) and various gemstones as mine-able tiles.
 
-However, these tiles are unfortunately not affected by ore illumination mods, such as [Illuminated Ores](http://community.playstarbound.com/index.php?resources/illuminated-ores.2429/) by Amadox.
+However, these tiles are unfortunately not affected by ore illumination mods, such as [Illuminated Ores](http://community.playstarbound.com/index.php?resources/illuminated-ores.2429/) by Amadox. This is because the ore illumination is done by JSON-patching the tiles files so that they emit radiant light.
 
 Features
 --------
@@ -42,6 +42,8 @@ Compatibility
 I develop this mod on nightly. It should work all the way down to stable. If it doesn't, please tell me.
 
 I tested this mod on an existing character and an existing planet, and it works fine.
+
+Threats to compatibility include ISE-3 adding/removing/changing ore tiles files, and Starbound changing their mod load order structure. I will do my best to keep glowise compatible with latest ISE-3 on Starbound nightly.
 
 Licensing
 ---------
