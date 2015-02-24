@@ -22,9 +22,13 @@ You need ISE-3 to run this mod. You may want to get Illuminated Ores as well, be
 Installation
 ------------
 
-To clone with Git, go to your starbound/giraffe_storage/mod directory (or any directory that stores mods in your version), and then git clone this repository.
+To clone with Git, go to your starbound/giraffe_storage/mods directory (or any directory that stores mods in your version), and then git clone this repository.
 
-If you downloaded it as a ZIP, extract it in a way that you have a directory structure that has /starbound/giraffe_storage/mod/glowise/glowise.modinfo. It has to look like that or it won't work. I don't know how Github manages releases but I'll get around to do a .zip and .modpak releases whenever possible.
+If you downloaded it as a ZIP, extract it in a way that you have a directory structure that has /starbound/giraffe_storage/mods/glowise/glowise.modinfo. It has to look like that or it won't work. I don't know how Github manages releases but I'll get around to do a .zip and .modpak releases whenever possible.
+
+The ores should glow even on already-visited planets, as we change the ore tiles directly.
+
+To uninstall, remove the starbound/giraffe_storage/mods/glowise directory or the modpak. There should be no error caused by uninstallation unless other mods depend on glowise and you break their requirements.
 
 Issues
 ------
@@ -36,6 +40,8 @@ Compatibility
 -------------
 
 I develop this mod on nightly. It should work all the way down to stable. If it doesn't, please tell me.
+
+I tested this mod on an existing character and an existing planet, and it works fine.
 
 Licensing
 ---------
