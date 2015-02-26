@@ -26,7 +26,7 @@ To clone with Git, go to your starbound/giraffe_storage/mods directory (or any d
 
 If you downloaded it as a ZIP, extract it in a way that you have a directory structure that has /starbound/giraffe_storage/mods/glowise/glowise.modinfo. It has to look like that or it won't work. I don't know how Github manages releases but I'll get around to do a .zip and .modpak releases whenever possible.
 
-The ores should glow even on already-visited planets, as we change the ore tiles directly.
+The ores should glow even on already-visited planets, as the patches target ore tiles and not world generation.
 
 To uninstall, remove the starbound/giraffe_storage/mods/glowise directory or the modpak. There should be no error caused by uninstallation unless other mods depend on glowise and you break their requirements.
 
@@ -48,9 +48,9 @@ Threats to compatibility include ISE-3 adding/removing/changing ore tiles files,
 Licensing
 ---------
 
-As stated in the project page, ISE-3's author does not allow mod pack redistribution and asset modification. However, since this term does not discuss about *patching* the mod, I am currently in the process of permission request. That means, if it is denied, I will have to delete this repository. I hope nobody hasn't really downloaded this yet. *NO ENDORSEMENT OR AFFILIATION IS IMPLIED*
+Thanks to DraLUSAD, ISE-3's author, for the confirmation of permission to *PATCH* the mod. *NO ENDORSEMENT OR AFFILIATION IS IMPLIED*.
 
-For my work in this mod, please treat this mod like other Starbound mods that have following as their copyright notice:
+For my contribution or work in this mod, please treat this mod like other Starbound mods that have following as their copyright notice:
 
 * Mod Pack Permissions: Anyone can use this mod in their mod compilation without the author's consent.
 * Mod Assets Permissions: Anyone can alter/redistribute the mod's assets without the author's consent.
