@@ -1,4 +1,4 @@
-# glowise
+# glowise (no longer maintained)
 Glowing ores for Starbound's ISE-3 mod
 
 Introduction
@@ -49,6 +49,8 @@ Compatibility
 I develop this mod on nightly. It should work all the way down to stable. I tested this mod on an existing character and an existing planet, and it works fine. If it doesn't, please tell me.
 
 Threats to compatibility include ISE-3 (theoretically anything this mod depends on) adding/removing/changing ore tiles files, and Starbound changing their mod load order structure. I will do my best to keep glowise compatible with latest ISE-3 on Starbound nightly.
+
+No longer maintained since last commit. I will not comment on FU compatibility as I do not personally play that modpack.
 
 Licensing
 ---------
